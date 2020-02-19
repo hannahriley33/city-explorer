@@ -1,0 +1,28 @@
+{
+  "name": "city-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahriley33/city-explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannahriley33/city-explorer/issues"
+  },
+  "homepage": "https://github.com/hannahriley33/city-explorer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
