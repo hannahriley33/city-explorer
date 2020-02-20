@@ -15,10 +15,10 @@ describe('/get /location', () => {
         });
 });
 
-describe('/get /trails', () => {
-    test('it should return the events in the specified location', async(done) => {
-        const response1 = await request(app)
-            .get('/location')
-            .get('/events')
-    })
-})
+// describe('/get /trails', () => {
+//     test('it should return the events in the specified location', async(done) => {
+//         const response1 = await request(app)
+//             .get('/location')
+//             .get('/events')
+//     })
+// })
